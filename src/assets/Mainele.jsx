@@ -4,6 +4,16 @@ const Mainele = () => {
   return (
     <div>
       <Electronic/>
+      <Electronic/>
+      <Electronic/>
+      <Electronic/>
+      <Electronic/>
+      <Electronic/>
+      <Electronic/>
+      <Electronic/>
+      <Electronic/>
+
+
     </div>
   )
 }
