@@ -38,7 +38,7 @@ const Navbar = () => {
                            
                 
                             <p className="hover:bg-gray-100 px-2 py-1 cursor-pointer rounded">
-                                Electronics
+                              <Link to="/ele">  Electronics</Link>
                             </p>
 
                             <p className="hover:bg-gray-100 px-2 py-1 cursor-pointer rounded">

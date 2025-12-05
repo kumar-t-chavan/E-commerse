@@ -1,7 +1,7 @@
 import React from 'react'
 import combo from '../Images/combo.png'
 import shirt from '../Images/shirt.png'
-import black from '../Images/black.png'
+
 import white from '../Images/white.png'
 import tshirt from '../Images/T-shirt.png'
 const Ho = () => {
