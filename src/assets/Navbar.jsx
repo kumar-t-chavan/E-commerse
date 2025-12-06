@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom'
-
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
@@ -28,7 +27,7 @@ const Navbar = () => {
                         <div className="absolute left-0 mt-2 md:mt-4 lg:mt-6 bg-white shadow-lg rounded-md  w-40 text-gray-800 space-y-2 text-start ">
 
                             <p className="hover:bg-gray-100 px-2 py-1 cursor-pointer rounded">
-                                Fashion
+                               <Link to="/Fashion">Fashion</Link>
                             </p>
     
                             <p className="hover:bg-gray-100 px-2 py-1 cursor-pointer rounded ">
@@ -42,11 +41,13 @@ const Navbar = () => {
                             </p>
 
                             <p className="hover:bg-gray-100 px-2 py-1 cursor-pointer rounded">
-                                Appliances
+                                
+                                  <Link to="/app">  Appliances</Link>
                             </p>
 
                             <p className="hover:bg-gray-100 px-2 py-1 cursor-pointer rounded">
-                                Sports
+                              
+                                 <Link to="/sport" > Sports</Link>
                             </p>
 
                         </div>

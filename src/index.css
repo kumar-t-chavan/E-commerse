@@ -16,6 +16,7 @@ p{
     
     padding-left: 10px;
     padding-top: 10px;
+   
 }
 .navbar{
     position: relative;
@@ -48,3 +49,6 @@ button{
     box-shadow: 1px 10px 30px  black;
 }
 
+.size{
+    padding-bottom: 100px;
+}
