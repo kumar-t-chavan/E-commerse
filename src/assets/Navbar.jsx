@@ -58,7 +58,8 @@ const Navbar = () => {
 
 
 <div className='font-semibold cursor-pointer hover:text-blue-600'>
-    Wishlist ❤️
+  
+      <Link to="/wishlist" >  Wishlist ❤️</Link>
 </div>
 
 <div className='font-semibold cursor-pointer hover:text-blue-600'>

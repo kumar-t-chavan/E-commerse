@@ -9,6 +9,7 @@ import Fashionmain from './assets/Fashionmain'
 import Appliances from './assets/Appliances'
 import Appliancesmain from './assets/Appliancesmain'
 import Sportsmain from './assets/Sportsmain'
+import Wishlist from './assets/Wishlist'
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
        <Route path='/Fashion' element={<Fashionmain/>}/>
        <Route path='/app' element={<Appliancesmain/>}/>
        <Route path='/sport' element={<Sportsmain/>}/>
+       <Route path='/wishlist' element={<Wishlist/>}/>
      </Routes> 
     </div>
   )
