@@ -5,6 +5,8 @@ import kurta from '../Images/kurta.png'
 import black from '../Images/black.png'
 const Fashion = () => {
   return (
+
+    
     <div>
         <div className='main-home h-50'>
                 <div className='box border-2 to-black inline-block'>
@@ -15,10 +17,7 @@ const Fashion = () => {
                     <button className='bg-amber-300 rounded cursor-pointer'>ADD TO CART</button>
                     <button className='btn cursor-pointer'>❤️</button>
                   </div>
-                </div>
-
-
-
+                </div> 
 
                   <div className='box border-2 to-black inline-block'>
                     <img src={formal} alt="" height={"100px"} width={"250px"} className='shirt h-81'/>

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+
+    const nevigate = useNavigate()
 
     return (
         <div className='navbar relative'>
@@ -62,12 +64,13 @@ const Navbar = () => {
       <Link to="/wishlist" >  Wishlist ❤️</Link>
 </div>
 
-<div className='font-semibold cursor-pointer hover:text-blue-600'>
+<div className='font-semibold cursor-pointer hover:text-blue-600' onClick={()=> nevigate("./footware")}>
     Order 🛍️
+ 
 </div>
 
 <div className='font-semibold cursor-pointer hover:text-blue-600'>
-    Login 👤
+    Login 👤                                                                    
 </div>
 
 
