@@ -20,6 +20,9 @@ p{
 }
 .navbar{
     position: relative;
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
 }
 
 .heading{
@@ -59,4 +62,98 @@ button{
 .btn512{
     margin-left: 10px;
     margin-top: 10px;
+}
+
+
+.slider {
+  position: relative;
+  width: 100%;
+
+}
+
+.slide {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+/* arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 28px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left { left: 10px; }
+.right { right: 10px; }
+
+/* baton container */
+.batons {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 8px;
+}
+
+/* normal baton */
+.baton {
+  width: 24px;
+  height: 4px;
+  background: #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+/* active baton */
+.baton.active {
+  width: 40px;
+  background: #2874f0;
+  transition: width 0.4s ease;
+}
+.slider {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.6s ease-in-out; /* Flipkart style */
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
 }

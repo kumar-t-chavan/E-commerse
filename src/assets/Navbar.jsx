@@ -6,7 +6,7 @@ const Navbar = () => {
     const nevigate = useNavigate()
 
     return (
-        <div className='navbar relative'>
+        <div className='navbar relative '>
             <nav className="flex justify-evenly items-center h-25  bg-gray-200 px-6 ">
                 <h1 className="text-5xl font-bold first-letter:text-amber-800 cursor-pointer">
                   <Link to="/">  IndianMart</Link>
@@ -74,13 +74,16 @@ const Navbar = () => {
 </div>
 
 
-                <div>
-
-                </div>
-
-            </nav>
-        </div>
+    <div>
+    </div>
+    </nav>
+    </div>
     );
 };
 
 export default Navbar;
+
+
+
+
+

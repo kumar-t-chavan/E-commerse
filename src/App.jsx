@@ -10,11 +10,12 @@ import Appliances from './assets/Appliances'
 import Appliancesmain from './assets/Appliancesmain'
 import Sportsmain from './assets/Sportsmain'
 import Wishlist from './assets/Wishlist'
+import ImageSlider from './assets/ImageSlider'
 const App = () => {
   return (
     <div>
-      <Navbar/>
-   
+      <Navbar/> <br /><br /><br /><br /><br /> <br />
+   <ImageSlider/>
      <Routes>
        <Route path='/footware' element={<Mainfootware/>}/>
        <Route path='/' element={    <Homemain/>  }/>
