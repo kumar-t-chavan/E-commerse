@@ -157,3 +157,37 @@ button{
 .right {
   right: 10px;
 }
+
+
+.box1{
+  display: flex;
+  justify-content: space-evenly;
+ padding: 2.5rem;
+}
+
+.policy{
+  border-right: 1px solid;
+  padding-right: 30px;
+}
+
+
+.main-footer{
+  margin-top: 5rem;
+}
+
+.down{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  cursor: pointer;
+  padding: 3rem;
+}
+
+.imgfooter{
+  display: flex;
+  
+  img{
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+}

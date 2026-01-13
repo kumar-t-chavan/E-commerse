@@ -20,6 +20,7 @@ const Footware = () => {
   
   
   
+  
                     <div className='box border-2 to-black inline-block'>
                       <img src={shoes9} alt="" height={"100px"} width={"250px"} className='shirt h-81'/>
                     <div className='space'>
