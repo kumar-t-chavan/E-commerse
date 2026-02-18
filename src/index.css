@@ -191,3 +191,43 @@ button{
     cursor: pointer;
   }
 }
+
+label,input{
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.form{
+ background-image: linear-gradient(to right, red,white,green);
+ border-radius: 10px;
+  height: 60vh;
+  margin-top: 5rem;
+  width: 40vw;
+  display: grid;
+  place-items: center;
+  box-shadow: 1px 2px 3px;
+  
+}
+.input512{
+  border: 2px solid black;
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 10px;
+}
+
+input{
+  padding: 5px;
+}
+.main-form{
+  
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.btn{
+  background-color: rgb(58, 58, 156);
+  border-radius: 10px;
+}

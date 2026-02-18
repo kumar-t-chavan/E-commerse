@@ -61,16 +61,17 @@ const Navbar = () => {
 
 <div className='font-semibold cursor-pointer hover:text-blue-600'>
   
-      <Link to="/wishlist" >  Wishlist ❤️</Link>
+    <Link to="/wishlist" >  Wishlist ❤️</Link>
+
 </div>
 
-<div className='font-semibold cursor-pointer hover:text-blue-600' onClick={()=> nevigate("./footware")}>
+<div className='font-semibold cursor-pointer hover:text-blue-600' onClick={()=> nevigate("/footware")}>
     Order 🛍️
  
 </div>
 
 <div className='font-semibold cursor-pointer hover:text-blue-600'>
-    Login 👤                                                                    
+    <Link to='/login'>Login 👤</Link>
 </div>
 
 
